@@ -10,10 +10,18 @@ page([
             'description' => "Free Web tutorials",
             'keywords' => "HTML, CSS, JavaScript, PHP"
         ]),
-        title("Pizzas !")
+        title("Pizzas !"),
+        lnk([
+            'rel' => 'stylesheet',
+            'href' => 'https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css'
+        ])
     ],
     'body' => [
-        'contenido' => [],
+        'contenido' => [
+            script([
+                'src' => 'https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js'
+            ])
+        ],
         'atributos' => []
     ]
 ]);

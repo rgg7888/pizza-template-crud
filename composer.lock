@@ -60,12 +60,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rgg7888/htmlTags.git",
-                "reference": "861d057267310c606a29a68d409f6a8334a16d91"
+                "reference": "edfc72e30699a6a5beb06e2758f177c1f96dcbac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rgg7888/htmlTags/zipball/861d057267310c606a29a68d409f6a8334a16d91",
-                "reference": "861d057267310c606a29a68d409f6a8334a16d91",
+                "url": "https://api.github.com/repos/rgg7888/htmlTags/zipball/edfc72e30699a6a5beb06e2758f177c1f96dcbac",
+                "reference": "edfc72e30699a6a5beb06e2758f177c1f96dcbac",
                 "shasum": ""
             },
             "require": {
@@ -79,7 +79,8 @@
             "autoload": {
                 "psr-4": {
                     "App\\tags\\title\\": "src/title/",
-                    "App\\tags\\link\\": "src/link/"
+                    "App\\tags\\link\\": "src/link/",
+                    "App\\tags\\script\\": "src/script/"
                 },
                 "files": [
                     "src/helpers.php"
@@ -100,7 +101,7 @@
                 "issues": "https://github.com/rgg7888/htmlTags/issues",
                 "source": "https://github.com/rgg7888/htmlTags/tree/main"
             },
-            "time": "2021-05-17T20:20:08+00:00"
+            "time": "2021-05-17T20:49:28+00:00"
         },
         {
             "name": "ramiro/html-wrapper",
