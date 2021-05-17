@@ -1,8 +1,8 @@
 # pizza-template-crud
 
 <pre>
-Muchas gracias al canal The Net Ninja por tener tan buena lista de reproduccion en php
-y tambien gracias a Acadeller por que sin ellos no habria encontrado tan excelente canal
+Muchas gracias al canal <a href="https://www.youtube.com/watch?v=-KUFcX7WLaA&list=PL4cUxeGkcC9gksOX3Kd9KPo-O68ncT05o&index=16">The Net Ninja</a> por tener tan buena lista de reproduccion en php
+y tambien gracias a <a href="https://github.com/Acadeller/recursos-programacion">Acadeller</a> por que sin ellos no habria encontrado tan excelente canal
 espero ser igual de bueno como ellos algun dia =) HAPPY CODING.
 </pre>
 
