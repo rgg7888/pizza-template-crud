@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rgg7888/htmlMetaGroup.git",
-                "reference": "40fdc16e1dfaa39b0a47b143e0b2133e0171496a"
+                "reference": "54792e0cfd989082cb25a0ebc6c0499457658dd2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rgg7888/htmlMetaGroup/zipball/40fdc16e1dfaa39b0a47b143e0b2133e0171496a",
-                "reference": "40fdc16e1dfaa39b0a47b143e0b2133e0171496a",
+                "url": "https://api.github.com/repos/rgg7888/htmlMetaGroup/zipball/54792e0cfd989082cb25a0ebc6c0499457658dd2",
+                "reference": "54792e0cfd989082cb25a0ebc6c0499457658dd2",
                 "shasum": ""
             },
             "require": {
@@ -32,7 +32,10 @@
                 "psr-4": {
                     "App\\hmg\\": "src/html-meta-group/",
                     "App\\mt\\": "src/html-meta-tag/"
-                }
+                },
+                "files": [
+                    "src/helpers.php"
+                ]
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -49,7 +52,7 @@
                 "issues": "https://github.com/rgg7888/htmlMetaGroup/issues",
                 "source": "https://github.com/rgg7888/htmlMetaGroup/tree/main"
             },
-            "time": "2021-05-17T20:19:40+00:00"
+            "time": "2021-05-17T20:32:13+00:00"
         },
         {
             "name": "ramiro/html-tags",
