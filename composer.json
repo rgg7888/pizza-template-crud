@@ -3,9 +3,9 @@
     "description": "ejemplo obtenido de el canal the net ninja",
     "type": "project",
     "require": {
-        "ramiro/html-wrapper": "^1.0",
-        "ramiro/html-tags": "^1.0",
-        "ramiro/html-meta-group": "^1.0"
+        "ramiro/html-wrapper": "dev-main",
+        "ramiro/html-meta-group": "dev-main",
+        "ramiro/html-tags": "dev-main"
     },
     "license": "MIT",
     "authors": [
