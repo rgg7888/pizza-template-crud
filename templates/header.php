@@ -1,3 +1,9 @@
 <?php
 
-require_once __DIR__ . '/vendor/autoload.php';
+$barra_de_navegacion = implode("",[
+    nav([
+        "nav bar"
+    ],[
+        'class' => 'white z-depth-0'
+    ])
+]);

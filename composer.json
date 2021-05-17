@@ -5,7 +5,8 @@
     "require": {
         "ramiro/html-wrapper": "dev-main",
         "ramiro/html-meta-group": "dev-main",
-        "ramiro/html-tags": "dev-main"
+        "ramiro/html-tags": "dev-main",
+        "ramiro/html-mirror-tags": "dev-main"
     },
     "license": "MIT",
     "authors": [

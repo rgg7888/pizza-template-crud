@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "417b3c4d90b1cc98e1a47838540b347b",
+    "content-hash": "46629835e853d7d0fd19a4c1e44b1c81",
     "packages": [
         {
             "name": "ramiro/html-meta-group",
@@ -55,17 +55,64 @@
             "time": "2021-05-17T20:32:13+00:00"
         },
         {
+            "name": "ramiro/html-mirror-tags",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rgg7888/htmlMirrorTags.git",
+                "reference": "decc9446ebedc2ae67a77cefd8a3d89fe60d32f4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/rgg7888/htmlMirrorTags/zipball/decc9446ebedc2ae67a77cefd8a3d89fe60d32f4",
+                "reference": "decc9446ebedc2ae67a77cefd8a3d89fe60d32f4",
+                "shasum": ""
+            },
+            "require": {
+                "ramiro/html-wrapper": "dev-main"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "9.5.x-dev"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "App\\tags\\nav\\": "src/nav/"
+                },
+                "files": [
+                    "src/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "rgg7888",
+                    "email": "rgg7888@outlook.com"
+                }
+            ],
+            "description": "etiquetas espejo para generar html tags con html-armor",
+            "support": {
+                "issues": "https://github.com/rgg7888/htmlMirrorTags/issues",
+                "source": "https://github.com/rgg7888/htmlMirrorTags/tree/v1.0.0"
+            },
+            "time": "2021-05-17T22:00:17+00:00"
+        },
+        {
             "name": "ramiro/html-tags",
             "version": "dev-main",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rgg7888/htmlTags.git",
-                "reference": "edfc72e30699a6a5beb06e2758f177c1f96dcbac"
+                "reference": "7acff7cb0699c9d7087b766eae126f1fcfde18ce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rgg7888/htmlTags/zipball/edfc72e30699a6a5beb06e2758f177c1f96dcbac",
-                "reference": "edfc72e30699a6a5beb06e2758f177c1f96dcbac",
+                "url": "https://api.github.com/repos/rgg7888/htmlTags/zipball/7acff7cb0699c9d7087b766eae126f1fcfde18ce",
+                "reference": "7acff7cb0699c9d7087b766eae126f1fcfde18ce",
                 "shasum": ""
             },
             "require": {
@@ -80,7 +127,8 @@
                 "psr-4": {
                     "App\\tags\\title\\": "src/title/",
                     "App\\tags\\link\\": "src/link/",
-                    "App\\tags\\script\\": "src/script/"
+                    "App\\tags\\script\\": "src/script/",
+                    "App\\tags\\nav\\": "src/nav/"
                 },
                 "files": [
                     "src/helpers.php"
@@ -101,7 +149,7 @@
                 "issues": "https://github.com/rgg7888/htmlTags/issues",
                 "source": "https://github.com/rgg7888/htmlTags/tree/main"
             },
-            "time": "2021-05-17T20:49:28+00:00"
+            "time": "2021-05-17T21:25:52+00:00"
         },
         {
             "name": "ramiro/html-wrapper",
@@ -156,7 +204,8 @@
     "stability-flags": {
         "ramiro/html-wrapper": 20,
         "ramiro/html-meta-group": 20,
-        "ramiro/html-tags": 20
+        "ramiro/html-tags": 20,
+        "ramiro/html-mirror-tags": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
