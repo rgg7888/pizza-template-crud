@@ -22,6 +22,10 @@ page([
             $barra_de_navegacion,
             script([
                 'src' => 'https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js'
+            ]),
+            script([
+                'src' => 'https://kit.fontawesome.com/60163d706b.js',
+                'crossorigin' => 'anonymous'
             ])
         ],
         'atributos' => [

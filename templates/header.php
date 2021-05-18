@@ -5,7 +5,7 @@ $barra_de_navegacion = implode("",[
         _div([
             'class' => 'container'
         ],[
-            a("Pizza",[
+            a("Clase & Methods || File & fnctions",[
                 'href' => '#',
                 'class' => 'brand-logo brand-text'
             ]),
@@ -16,7 +16,7 @@ $barra_de_navegacion = implode("",[
                 li(_a([
                     'href' => '#',
                     'class' => 'btn brand'
-                ],"text"))
+                ],_i(['class' => 'fas fa-plus-circle'])))
             ])
         ])
     ],[
