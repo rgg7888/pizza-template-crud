@@ -11,7 +11,7 @@ page([
             'description' => "Free Web tutorials",
             'keywords' => "HTML, CSS, JavaScript, PHP"
         ]),
-        title("Pizzas !"),
+        title("Html Armor"),
         lnk([
             'rel' => 'stylesheet',
             'href' => 'https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css'
