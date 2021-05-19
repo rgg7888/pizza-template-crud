@@ -11,10 +11,18 @@ page([
             'description' => "Free Web tutorials",
             'keywords' => "HTML, CSS, JavaScript, PHP"
         ]),
-        title("Html Armor"),
+        title("Pizzas!"),
         lnk([
             'rel' => 'stylesheet',
             'href' => 'https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css'
+        ]),
+        css([
+            sye([
+                'background' => '#cbb09c !important'
+            ],".brand"),
+            sye([
+                'color' => '#cbb09c !important'
+            ],".brand-text")
         ])
     ],
     'body' => [
