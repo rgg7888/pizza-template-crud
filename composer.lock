@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rgg7888/cssExt.git",
-                "reference": "204e35ae7dfe70d7c6069bb39517ede6d02055eb"
+                "reference": "505ca1df3635bb62ee0ea629092d93661dfad978"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rgg7888/cssExt/zipball/204e35ae7dfe70d7c6069bb39517ede6d02055eb",
-                "reference": "204e35ae7dfe70d7c6069bb39517ede6d02055eb",
+                "url": "https://api.github.com/repos/rgg7888/cssExt/zipball/505ca1df3635bb62ee0ea629092d93661dfad978",
+                "reference": "505ca1df3635bb62ee0ea629092d93661dfad978",
                 "shasum": ""
             },
             "require": {
@@ -31,7 +31,8 @@
             "autoload": {
                 "psr-4": {
                     "App\\selector\\": "src/selector/",
-                    "App\\tags\\style\\": "src/style/"
+                    "App\\tags\\style\\": "src/style/",
+                    "App\\css\\": "src/css/"
                 },
                 "files": [
                     "src/helpers.php"
@@ -52,7 +53,7 @@
                 "issues": "https://github.com/rgg7888/cssExt/issues",
                 "source": "https://github.com/rgg7888/cssExt/tree/main"
             },
-            "time": "2021-05-18T23:40:49+00:00"
+            "time": "2021-05-19T16:30:33+00:00"
         },
         {
             "name": "ramiro/html-meta-group",
@@ -60,12 +61,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rgg7888/htmlMetaGroup.git",
-                "reference": "54792e0cfd989082cb25a0ebc6c0499457658dd2"
+                "reference": "cdc0004f358e8a0218ea71a4e54503c82a7a523e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rgg7888/htmlMetaGroup/zipball/54792e0cfd989082cb25a0ebc6c0499457658dd2",
-                "reference": "54792e0cfd989082cb25a0ebc6c0499457658dd2",
+                "url": "https://api.github.com/repos/rgg7888/htmlMetaGroup/zipball/cdc0004f358e8a0218ea71a4e54503c82a7a523e",
+                "reference": "cdc0004f358e8a0218ea71a4e54503c82a7a523e",
                 "shasum": ""
             },
             "require": {
@@ -95,12 +96,12 @@
                     "email": "rgg7888@outlook.com"
                 }
             ],
-            "description": "wrapper html para contener una pagina web.",
+            "description": "Etiqueta meta para el head y metodos para generar un grupo de ellas.",
             "support": {
                 "issues": "https://github.com/rgg7888/htmlMetaGroup/issues",
                 "source": "https://github.com/rgg7888/htmlMetaGroup/tree/main"
             },
-            "time": "2021-05-17T20:32:13+00:00"
+            "time": "2021-05-19T16:49:16+00:00"
         },
         {
             "name": "ramiro/html-mirror-tags",

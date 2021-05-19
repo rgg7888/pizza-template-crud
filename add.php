@@ -9,10 +9,10 @@ page([
     'head' => [
         group([
             'author' => "Ramiro",
-            'description' => "Pizzas View",
+            'description' => "Agregar un pizza",
             'keywords' => "HTML, CSS, JavaScript, PHP"
         ]),
-        title("Pizzas!"),
+        title("Add a Pizza!"),
         lnk([
             'rel' => 'stylesheet',
             'href' => 'https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css'
