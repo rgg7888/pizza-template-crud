@@ -2,6 +2,7 @@
 
 require_once __DIR__ . '/vendor/autoload.php';
 require_once('./templates/header.php');
+require_once('./templates/footer.php');
 
 page([
     'idioma' => 'en',
@@ -28,6 +29,7 @@ page([
     'body' => [
         'contenido' => [
             $barra_de_navegacion,
+            $pie_de_pagina,
             script([
                 'src' => 'https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js'
             ]),
