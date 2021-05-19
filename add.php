@@ -29,6 +29,11 @@ page([
     'body' => [
         'contenido' => [
             $barra_de_navegacion,
+            _section([
+                'class' => 'container grey-text'
+            ],_h4([
+                'class' => 'center'
+            ],"Add A Pizza !")),
             $pie_de_pagina,
             script([
                 'src' => 'https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js'

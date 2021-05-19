@@ -109,12 +109,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rgg7888/htmlMirrorTags.git",
-                "reference": "681d17c58c0996bcbc602bfd700122ffa1525d0c"
+                "reference": "28ec56aafb9d08bb4bde81d2de78f3818949b393"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rgg7888/htmlMirrorTags/zipball/681d17c58c0996bcbc602bfd700122ffa1525d0c",
-                "reference": "681d17c58c0996bcbc602bfd700122ffa1525d0c",
+                "url": "https://api.github.com/repos/rgg7888/htmlMirrorTags/zipball/28ec56aafb9d08bb4bde81d2de78f3818949b393",
+                "reference": "28ec56aafb9d08bb4bde81d2de78f3818949b393",
                 "shasum": ""
             },
             "require": {
@@ -133,7 +133,14 @@
                     "App\\tags\\mirrorUl\\": "src/ul/",
                     "App\\tags\\mirrorLi\\": "src/li/",
                     "App\\tags\\mirrorI\\": "src/i/",
-                    "App\\tags\\mirrorFooter\\": "src/footer/"
+                    "App\\tags\\mirrorFooter\\": "src/footer/",
+                    "App\\tags\\mirrorSection\\": "src/section/",
+                    "App\\tags\\mirrorH1\\": "src/h1/",
+                    "App\\tags\\mirrorH2\\": "src/h2/",
+                    "App\\tags\\mirrorH3\\": "src/h3/",
+                    "App\\tags\\mirrorH4\\": "src/h4/",
+                    "App\\tags\\mirrorH5\\": "src/h5/",
+                    "App\\tags\\mirrorH6\\": "src/h6/"
                 },
                 "files": [
                     "src/helpers.php"
@@ -154,7 +161,7 @@
                 "issues": "https://github.com/rgg7888/htmlMirrorTags/issues",
                 "source": "https://github.com/rgg7888/htmlMirrorTags/tree/main"
             },
-            "time": "2021-05-19T07:07:32+00:00"
+            "time": "2021-05-19T23:42:55+00:00"
         },
         {
             "name": "ramiro/html-tags",
@@ -162,12 +169,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rgg7888/htmlTags.git",
-                "reference": "6973117928c420c40c68276f744f08de9de2c2cb"
+                "reference": "fbdb22ea886540e23bf0868fea6062c5ee913da9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rgg7888/htmlTags/zipball/6973117928c420c40c68276f744f08de9de2c2cb",
-                "reference": "6973117928c420c40c68276f744f08de9de2c2cb",
+                "url": "https://api.github.com/repos/rgg7888/htmlTags/zipball/fbdb22ea886540e23bf0868fea6062c5ee913da9",
+                "reference": "fbdb22ea886540e23bf0868fea6062c5ee913da9",
                 "shasum": ""
             },
             "require": {
@@ -189,7 +196,14 @@
                     "App\\tags\\ul\\": "src/ul/",
                     "App\\tags\\li\\": "src/li/",
                     "App\\tags\\i\\": "src/i/",
-                    "App\\tags\\footer\\": "src/footer/"
+                    "App\\tags\\footer\\": "src/footer/",
+                    "App\\tags\\section\\": "src/section/",
+                    "App\\tags\\h1\\": "src/h1/",
+                    "App\\tags\\h2\\": "src/h2/",
+                    "App\\tags\\h3\\": "src/h3/",
+                    "App\\tags\\h4\\": "src/h4/",
+                    "App\\tags\\h5\\": "src/h5/",
+                    "App\\tags\\h6\\": "src/h6/"
                 },
                 "files": [
                     "src/helpers.php"
@@ -210,7 +224,7 @@
                 "issues": "https://github.com/rgg7888/htmlTags/issues",
                 "source": "https://github.com/rgg7888/htmlTags/tree/main"
             },
-            "time": "2021-05-19T07:06:26+00:00"
+            "time": "2021-05-19T23:30:48+00:00"
         },
         {
             "name": "ramiro/html-wrapper",
