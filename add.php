@@ -14,6 +14,15 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
     echo $result[0];
     echo $result[1];
     echo $result[2];
+}else{
+    $result = _validar_form([
+        'email',
+        'title',
+        'ingredients'
+    ]);
+    echo $result[0];
+    echo $result[1];
+    echo $result[2];
 }
 ###########################################
 

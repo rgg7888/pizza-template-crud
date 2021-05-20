@@ -61,12 +61,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rgg7888/htmlArmorController.git",
-                "reference": "cb5010d504a94b1255bcd045059c1ff685757248"
+                "reference": "6010d37078211d929b78ce1b18f3bc96cfdaca78"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rgg7888/htmlArmorController/zipball/cb5010d504a94b1255bcd045059c1ff685757248",
-                "reference": "cb5010d504a94b1255bcd045059c1ff685757248",
+                "url": "https://api.github.com/repos/rgg7888/htmlArmorController/zipball/6010d37078211d929b78ce1b18f3bc96cfdaca78",
+                "reference": "6010d37078211d929b78ce1b18f3bc96cfdaca78",
                 "shasum": ""
             },
             "require-dev": {
@@ -97,7 +97,7 @@
                 "issues": "https://github.com/rgg7888/htmlArmorController/issues",
                 "source": "https://github.com/rgg7888/htmlArmorController/tree/main"
             },
-            "time": "2021-05-20T04:31:01+00:00"
+            "time": "2021-05-20T18:33:28+00:00"
         },
         {
             "name": "ramiro/html-meta-group",
@@ -105,12 +105,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rgg7888/htmlMetaGroup.git",
-                "reference": "cdc0004f358e8a0218ea71a4e54503c82a7a523e"
+                "reference": "39a0b89ea9683aecbe4e9b68a2096d16111466bd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rgg7888/htmlMetaGroup/zipball/cdc0004f358e8a0218ea71a4e54503c82a7a523e",
-                "reference": "cdc0004f358e8a0218ea71a4e54503c82a7a523e",
+                "url": "https://api.github.com/repos/rgg7888/htmlMetaGroup/zipball/39a0b89ea9683aecbe4e9b68a2096d16111466bd",
+                "reference": "39a0b89ea9683aecbe4e9b68a2096d16111466bd",
                 "shasum": ""
             },
             "require": {
@@ -145,7 +145,7 @@
                 "issues": "https://github.com/rgg7888/htmlMetaGroup/issues",
                 "source": "https://github.com/rgg7888/htmlMetaGroup/tree/main"
             },
-            "time": "2021-05-19T16:49:16+00:00"
+            "time": "2021-05-20T18:34:00+00:00"
         },
         {
             "name": "ramiro/html-mirror-tags",
