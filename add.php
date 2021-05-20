@@ -11,8 +11,8 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
         'title',
         'ingredients'
     ]);
-    echo $result[0];
-    echo $result[1];
+    echo $result[0]."<br>";
+    echo $result[1]."<br>";
     echo $result[2];
 }else{
     $result = _validar_form([
@@ -20,8 +20,8 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
         'title',
         'ingredients'
     ]);
-    echo $result[0];
-    echo $result[1];
+    echo $result[0]."<br>";
+    echo $result[1]."<br>";
     echo $result[2];
 }
 ###########################################
