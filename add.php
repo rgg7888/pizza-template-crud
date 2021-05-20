@@ -5,7 +5,16 @@ require_once('./templates/header.php');
 require_once('./templates/footer.php');
 
 #######Procesamiento de los datos###########
-
+if($_SERVER['REQUEST_METHOD'] === 'POST') {
+    $result = validar_form([
+        'email',
+        'title',
+        'ingredients'
+    ]);
+    echo $result[0];
+    echo $result[1];
+    echo $result[2];
+}
 ###########################################
 
 page([

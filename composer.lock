@@ -61,12 +61,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rgg7888/htmlArmorController.git",
-                "reference": "2421575077af777bd7c5c9daeafa1ac94c57ed72"
+                "reference": "cb5010d504a94b1255bcd045059c1ff685757248"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rgg7888/htmlArmorController/zipball/2421575077af777bd7c5c9daeafa1ac94c57ed72",
-                "reference": "2421575077af777bd7c5c9daeafa1ac94c57ed72",
+                "url": "https://api.github.com/repos/rgg7888/htmlArmorController/zipball/cb5010d504a94b1255bcd045059c1ff685757248",
+                "reference": "cb5010d504a94b1255bcd045059c1ff685757248",
                 "shasum": ""
             },
             "require-dev": {
@@ -97,7 +97,7 @@
                 "issues": "https://github.com/rgg7888/htmlArmorController/issues",
                 "source": "https://github.com/rgg7888/htmlArmorController/tree/main"
             },
-            "time": "2021-05-20T02:29:49+00:00"
+            "time": "2021-05-20T04:31:01+00:00"
         },
         {
             "name": "ramiro/html-meta-group",
