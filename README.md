@@ -16,3 +16,15 @@ espero ser igual de bueno como ellos algun dia =) HAPPY CODING.
     <li><a href="https://packagist.org/packages/ramiro/css-ext">css-ext</a></li>
     <li><a href="https://packagist.org/packages/ramiro/html-armor-controller">html-armor-controller</a></li>
 </ul>
+
+<h2>Instalacion de dependencias</h2>
+<pre>
+composer install
+</pre>
+
+<h2>Servers</h2>
+
+<ul>
+    <li>file: index.php | server-url: http://localhost:8000 | levantar-server: php -S localhost:8000 index.php</li>
+    <li>file: add.php | server-url: http://localhost:8001 | levantar-server: php -S localhost:8001 add.php</li>
+</ul>
