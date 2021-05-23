@@ -4,6 +4,11 @@ require_once __DIR__ . '/vendor/autoload.php';
 require_once('./templates/header.php');
 require_once('./templates/footer.php');
 
+############conexion a la base de datos###############
+require_once('./controladores/getDataController.php');
+require_once('./templates/card.php');
+#####################################################
+
 page([
     'idioma' => 'en',
     'head' => [
@@ -29,6 +34,14 @@ page([
     'body' => [
         'contenido' => [
             $barra_de_navegacion,
+            _h4([
+                'class' => 'center grey-text'
+            ],"Pizzas !!!"),
+            div(_div([
+                'class' => 'row'
+            ],$res),[
+                'class' => 'container'
+            ]),
             $pie_de_pagina,
             script([
                 'src' => 'https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js'

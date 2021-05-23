@@ -61,12 +61,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rgg7888/htmlArmorController.git",
-                "reference": "87408723953a75566ac7709938997cd26d1f35ba"
+                "reference": "b12a41728408b64fad65d7db236e2fa037976518"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rgg7888/htmlArmorController/zipball/87408723953a75566ac7709938997cd26d1f35ba",
-                "reference": "87408723953a75566ac7709938997cd26d1f35ba",
+                "url": "https://api.github.com/repos/rgg7888/htmlArmorController/zipball/b12a41728408b64fad65d7db236e2fa037976518",
+                "reference": "b12a41728408b64fad65d7db236e2fa037976518",
                 "shasum": ""
             },
             "require-dev": {
@@ -77,7 +77,8 @@
             "autoload": {
                 "psr-4": {
                     "App\\data\\controller\\": "src/controller/",
-                    "App\\validacion\\forms\\": "src/forms/"
+                    "App\\validacion\\forms\\": "src/forms/",
+                    "App\\clad\\crud\\": "src/crud/"
                 },
                 "files": [
                     "src/helpers.php"
@@ -98,7 +99,7 @@
                 "issues": "https://github.com/rgg7888/htmlArmorController/issues",
                 "source": "https://github.com/rgg7888/htmlArmorController/tree/main"
             },
-            "time": "2021-05-23T08:15:56+00:00"
+            "time": "2021-05-23T16:58:43+00:00"
         },
         {
             "name": "ramiro/html-meta-group",
