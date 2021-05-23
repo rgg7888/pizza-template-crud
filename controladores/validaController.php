@@ -29,4 +29,6 @@ if(isset($_POST['submit'])) {
     #comprobamos que el email sea valido
     (is_array(validar("lista","ingredients"))) ? $errores['ingredients'] .= "<br>".validar("lista","ingredients")[1] : $values['ingredients'] = validar("lista","ingredients");
 
+    require_once('./controladores/insertDataController.php');
+
 }
