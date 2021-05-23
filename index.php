@@ -5,6 +5,7 @@ require_once('./templates/header.php');
 require_once('./templates/footer.php');
 
 ############conexion a la base de datos###############
+require_once('./utils/Connection.php');
 require_once('./controladores/getDataController.php');
 require_once('./templates/card.php');
 #####################################################
