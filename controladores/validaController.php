@@ -1,25 +1,32 @@
 <?php
-$result = null;
-if($_SERVER['REQUEST_METHOD'] === 'POST') {
-    $result = validar_form([
-        'email',
-        'title',
-        'ingredients'
-    ]);
-    /*if(!empty($result)){
-        echo $result[0]."<br>";
-        echo $result[1]."<br>";
-        echo $result[2];
-    }*/
-}else{
-    $result = _validar_form([
-        'email',
-        'title',
-        'ingredients'
-    ]);
-    /*if(!empty($result)){
-        echo $result[0]."<br>";
-        echo $result[1]."<br>";
-        echo $result[2];
-    }*/
+$values = ['email' => '','title' => '','ingredients' => ''];
+$errores = ['email' => '','title' => '','ingredients' => ''];
+if(isset($_POST['submit'])) {
+
+    /**
+     * Cuando se utiliza la validacion diferente a vacio 
+     * no es necesario comprovar vacio porque 
+     * por default la funcion validar si se quiere
+     * comprovar otros criterios un valor vacio 
+     * automaticamente es como un valor incorrecto
+     * pero por si o por no le recomiendo agregar la validacion 
+     * de campos vacios para que su formulario sea mas
+     * seguro y evitar que cosas raras sucedan =)
+     */
+
+    #comprobamos que el email no este vacio
+    (is_array(validar("vacio","email"))) ? $errores['email'] = validar("vacio","email")[1] : $values['email'] = validar("vacio","email");
+    #comprobamos que el email sea valido
+    (is_array(validar("correo","email"))) ? $errores['email'] = validar("correo","email")[1] : $values['email'] = validar("correo","email");
+
+    #comprobamos que el title no este vacio
+    (is_array(validar("vacio","title"))) ? $errores['title'] = validar("vacio","title")[1] : $values['title'] = validar("vacio","title");
+    #comprobamos que el title sea valido
+    (is_array(validar("letrasOnly","title"))) ? $errores['title'] = validar("letrasOnly","title")[1] : $values['title'] = validar("letrasOnly","title");
+
+    #comprobamos que los ingredientes no este vacio
+    (is_array(validar("vacio","ingredients"))) ? $errores['ingredients'] = validar("vacio","ingredients")[1] : $values['ingredients'] = validar("vacio","ingredients");
+    #comprobamos que el email sea valido
+    (is_array(validar("lista","ingredients"))) ? $errores['ingredients'] = validar("lista","ingredients")[1] : $values['ingredients'] = validar("lista","ingredients");
+
 }
