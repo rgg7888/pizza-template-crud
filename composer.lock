@@ -61,12 +61,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rgg7888/htmlArmorController.git",
-                "reference": "c1be73db1150c7ad44a154cfd3a6b008a30d60ee"
+                "reference": "fbc6527beb9d33290721f9ce5e81bda969a7b332"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rgg7888/htmlArmorController/zipball/c1be73db1150c7ad44a154cfd3a6b008a30d60ee",
-                "reference": "c1be73db1150c7ad44a154cfd3a6b008a30d60ee",
+                "url": "https://api.github.com/repos/rgg7888/htmlArmorController/zipball/fbc6527beb9d33290721f9ce5e81bda969a7b332",
+                "reference": "fbc6527beb9d33290721f9ce5e81bda969a7b332",
                 "shasum": ""
             },
             "require-dev": {
@@ -97,7 +97,7 @@
                 "issues": "https://github.com/rgg7888/htmlArmorController/issues",
                 "source": "https://github.com/rgg7888/htmlArmorController/tree/main"
             },
-            "time": "2021-05-20T19:26:06+00:00"
+            "time": "2021-05-23T02:44:25+00:00"
         },
         {
             "name": "ramiro/html-meta-group",
@@ -105,12 +105,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rgg7888/htmlMetaGroup.git",
-                "reference": "39a0b89ea9683aecbe4e9b68a2096d16111466bd"
+                "reference": "2253921d26b298820e6af5d9ceb63d86d6cd93cd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rgg7888/htmlMetaGroup/zipball/39a0b89ea9683aecbe4e9b68a2096d16111466bd",
-                "reference": "39a0b89ea9683aecbe4e9b68a2096d16111466bd",
+                "url": "https://api.github.com/repos/rgg7888/htmlMetaGroup/zipball/2253921d26b298820e6af5d9ceb63d86d6cd93cd",
+                "reference": "2253921d26b298820e6af5d9ceb63d86d6cd93cd",
                 "shasum": ""
             },
             "require": {
@@ -145,7 +145,7 @@
                 "issues": "https://github.com/rgg7888/htmlMetaGroup/issues",
                 "source": "https://github.com/rgg7888/htmlMetaGroup/tree/main"
             },
-            "time": "2021-05-20T18:34:00+00:00"
+            "time": "2021-05-21T01:48:52+00:00"
         },
         {
             "name": "ramiro/html-mirror-tags",
@@ -215,12 +215,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rgg7888/htmlTags.git",
-                "reference": "cc1794c9b151484acfbfdc6c93fbccb7ffd08353"
+                "reference": "d97c0e91a4ec2e5457cfb9890185e59aba865196"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rgg7888/htmlTags/zipball/cc1794c9b151484acfbfdc6c93fbccb7ffd08353",
-                "reference": "cc1794c9b151484acfbfdc6c93fbccb7ffd08353",
+                "url": "https://api.github.com/repos/rgg7888/htmlTags/zipball/d97c0e91a4ec2e5457cfb9890185e59aba865196",
+                "reference": "d97c0e91a4ec2e5457cfb9890185e59aba865196",
                 "shasum": ""
             },
             "require": {
@@ -240,6 +240,7 @@
                     "App\\tags\\div\\": "src/div/",
                     "App\\tags\\a\\": "src/a/",
                     "App\\tags\\ul\\": "src/ul/",
+                    "App\\tags\\ol\\": "src/ol/",
                     "App\\tags\\li\\": "src/li/",
                     "App\\tags\\i\\": "src/i/",
                     "App\\tags\\footer\\": "src/footer/",
@@ -252,7 +253,8 @@
                     "App\\tags\\h6\\": "src/h6/",
                     "App\\tags\\form\\": "src/form/",
                     "App\\tags\\label\\": "src/label/",
-                    "App\\tags\\input\\": "src/input/"
+                    "App\\tags\\input\\": "src/input/",
+                    "App\\tags\\p\\": "src/p/"
                 },
                 "files": [
                     "src/helpers.php"
@@ -273,7 +275,7 @@
                 "issues": "https://github.com/rgg7888/htmlTags/issues",
                 "source": "https://github.com/rgg7888/htmlTags/tree/main"
             },
-            "time": "2021-05-20T00:56:55+00:00"
+            "time": "2021-05-22T01:37:12+00:00"
         },
         {
             "name": "ramiro/html-wrapper",

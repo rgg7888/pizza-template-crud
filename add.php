@@ -52,17 +52,29 @@ page([
                     label("Your Email:"),
                     input([
                         'type' => 'text',
-                        'name' => 'email'
+                        'name' => 'email',
+                        'value' => val("email",$result[0])
+                    ]),
+                    div(err("email",$result[0]),[
+                        'class' => 'red-text'
                     ]),
                     label("Pizza Title:"),
                     input([
                         'type' => 'text',
-                        'name' => 'title'
+                        'name' => 'title',
+                        'value' => val("title",$result[1])
+                    ]),
+                    div(err("title",$result[1]),[
+                        'class' => 'red-text'
                     ]),
                     label("Ingredients (comma separated):"),
                     input([
                         'type' => 'text',
-                        'name' => 'ingredients'
+                        'name' => 'ingredients',
+                        'value' => val("ingredients",$result[2]) 
+                    ]),
+                    div(err("ingredients",$result[2]),[
+                        'class' => 'red-text'
                     ]),
                     _div([
                         'class' => 'center'
