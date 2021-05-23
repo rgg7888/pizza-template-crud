@@ -1,6 +1,13 @@
 <?php
 
 $cards = [];
+function crearLista($ingredientes) {
+    $items = [];
+    foreach(explode(',',$ingredientes) as $ing){
+        array_push($items,li(htmlspecialchars($ing)));
+    }
+    return ul($items);
+}
 function template($title,$ingredientes,$infoLink){
 
     return _div([
@@ -12,7 +19,7 @@ function template($title,$ingredientes,$infoLink){
                 'class' => 'card-content center'
             ],[
                 h6(htmlspecialchars($title)),
-                div(htmlspecialchars($ingredientes))
+                div(crearLista($ingredientes))
             ]),
             _div([
                 'class' => 'card-action right-align'
