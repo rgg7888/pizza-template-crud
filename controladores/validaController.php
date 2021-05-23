@@ -5,9 +5,9 @@ if(isset($_POST['submit'])) {
 
     /**
      * Cuando se utiliza la validacion diferente a vacio 
-     * no es necesario comprovar vacio porque 
+     * no es necesario comprobar vacio porque 
      * por default la funcion validar si se quiere
-     * comprovar otros criterios un valor vacio 
+     * comprobar otros criterios un valor vacio 
      * automaticamente es como un valor incorrecto
      * pero por si o por no le recomiendo agregar la validacion 
      * de campos vacios para que su formulario sea mas
