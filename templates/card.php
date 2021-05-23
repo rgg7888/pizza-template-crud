@@ -15,6 +15,11 @@ function template($title,$ingredientes,$infoLink){
     ],_div([
             'class' => 'card z-depth-0'
         ],[
+            img([
+                'src' => './assets/pizza.svg',
+                'class' => 'pizza',
+                'alt' => 'pizza'
+            ]),
             _div([
                 'class' => 'card-content center'
             ],[

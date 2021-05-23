@@ -217,12 +217,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rgg7888/htmlTags.git",
-                "reference": "d97c0e91a4ec2e5457cfb9890185e59aba865196"
+                "reference": "e08d918eaf8592ab94cb64da65f8593a1f179580"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rgg7888/htmlTags/zipball/d97c0e91a4ec2e5457cfb9890185e59aba865196",
-                "reference": "d97c0e91a4ec2e5457cfb9890185e59aba865196",
+                "url": "https://api.github.com/repos/rgg7888/htmlTags/zipball/e08d918eaf8592ab94cb64da65f8593a1f179580",
+                "reference": "e08d918eaf8592ab94cb64da65f8593a1f179580",
                 "shasum": ""
             },
             "require": {
@@ -256,7 +256,8 @@
                     "App\\tags\\form\\": "src/form/",
                     "App\\tags\\label\\": "src/label/",
                     "App\\tags\\input\\": "src/input/",
-                    "App\\tags\\p\\": "src/p/"
+                    "App\\tags\\p\\": "src/p/",
+                    "App\\tags\\img\\": "src/img/"
                 },
                 "files": [
                     "src/helpers.php"
@@ -277,7 +278,7 @@
                 "issues": "https://github.com/rgg7888/htmlTags/issues",
                 "source": "https://github.com/rgg7888/htmlTags/tree/main"
             },
-            "time": "2021-05-22T01:37:12+00:00"
+            "time": "2021-05-23T21:24:18+00:00"
         },
         {
             "name": "ramiro/html-wrapper",

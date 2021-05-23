@@ -29,7 +29,14 @@ page([
             ],".brand"),
             sye([
                 'color' => '#cbb09c !important'
-            ],".brand-text")
+            ],".brand-text"),
+            sye([
+                'width' => '100px',
+                'margin' => '40px auto -30px',
+                'display' => 'block',
+                'position' => 'relative',
+                'top' => '-30px'
+            ],".pizza")
         ])
     ],
     'body' => [
