@@ -33,7 +33,7 @@ function template($title,$ingredientes,$infoLink){
 }
 ##################looping
 foreach($rows as $row) {
-    array_push($cards,template($row['title'],$row['ingredients'],'#'));
+    array_push($cards,template($row['title'],$row['ingredients'],"http://localhost:8002?id=".$row['id']));
 }
 ##################
 $res = implode("",$cards);

@@ -27,4 +27,5 @@ composer install
 <ul>
     <li>file: index.php | server-url: http://localhost:8000 | levantar-server: php -S localhost:8000 index.php</li>
     <li>file: add.php | server-url: http://localhost:8001 | levantar-server: php -S localhost:8001 add.php</li>
+    <li>file: details.php | server-url: http://localhost:8002 | levantar-server: php -S localhost:8002 details.php</li>
 </ul>
