@@ -5,8 +5,10 @@ require_once('./templates/header.php');
 require_once('./templates/footer.php');
 
 ############Details page###############
-
-#####################################################
+require_once('./utils/Connection.php');
+require_once('./controladores/getOneRowController.php');
+require_once('./templates/single.php');
+#######################################
 
 page([
     'idioma' => 'en',
@@ -33,7 +35,9 @@ page([
     'body' => [
         'contenido' => [
             $barra_de_navegacion,
-            h2("details"),
+            _div([
+                'class' => 'container center'
+            ],$singleTemplate),
             $pie_de_pagina,
             script([
                 'src' => 'https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js'
