@@ -6,7 +6,7 @@ $barra_de_navegacion = implode("",[
             'class' => 'container'
         ],[
             a("Pizzas",[
-                'href' => '#',
+                'href' => 'http://localhost:8000',
                 'class' => 'brand-logo brand-text'
             ]),
             _ul([
@@ -14,7 +14,7 @@ $barra_de_navegacion = implode("",[
                 'class' => 'right hide-on-small-and-down'
             ],[
                 li(_a([
-                    'href' => '#',
+                    'href' => 'http://localhost:8001',
                     'class' => 'btn brand'
                 ],[
                     _i(['class' => 'fas fa-plus-circle']),
