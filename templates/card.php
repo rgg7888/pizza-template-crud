@@ -7,18 +7,20 @@ function template($title,$ingredientes,$infoLink){
         'class' => 'col s6 md3'
     ],_div([
             'class' => 'card z-depth-0'
-        ],_div([
-            'class' => 'card-content center'
         ],[
-            h6(htmlspecialchars($title)),
-            div(htmlspecialchars($ingredientes))
-        ]),
-        _div([
-            'class' => 'card-action right-align'
-        ],a("more info",[
-            'class' => 'brand-text',
-            'href' => $infoLink
-        ]))
+            _div([
+                'class' => 'card-content center'
+            ],[
+                h6(htmlspecialchars($title)),
+                div(htmlspecialchars($ingredientes))
+            ]),
+            _div([
+                'class' => 'card-action right-align'
+            ],a("more info",[
+                'class' => 'brand-text',
+                'href' => $infoLink
+            ]))
+        ]
     ));
 
 }
