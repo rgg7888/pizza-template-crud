@@ -3,6 +3,6 @@
 $conn = conectar([
     'machine' => 'localhost',
     'user' => 'myUser',
-    'password' => '',
+    'password' => '0912@.',
     'dbname' => 'pizzas'
 ]);
