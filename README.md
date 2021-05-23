@@ -12,4 +12,7 @@ espero ser igual de bueno como ellos algun dia =) HAPPY CODING.
     <li><a href="https://packagist.org/packages/ramiro/html-wrapper">html-wrapper</a></li>
     <li><a href="https://packagist.org/packages/ramiro/html-meta-group">html-meta-group</a></li>
     <li><a href="https://packagist.org/packages/ramiro/html-tags">html-tags</a></li>
+    <li><a href="https://packagist.org/packages/ramiro/html-mirror-tags">html-mirror-tags</a></li>
+    <li><a href="https://packagist.org/packages/ramiro/css-ext">css-ext</a></li>
+    <li><a href="https://packagist.org/packages/ramiro/html-armor-controller">html-armor-controller</a></li>
 </ul>
